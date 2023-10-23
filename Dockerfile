@@ -10,6 +10,8 @@ RUN apt-get -qq update \
     ca-certificates \
     netcat-openbsd \
     wget \
+    iproute2 \
+    telnet \
     dnsutils \
   > /dev/null \
   && apt-get -qq clean \
