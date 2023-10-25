@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-/render/tailscaled --tun=userspace-networking --socks5-server="${RENDER_INTERNAL_IP}:1057" &
+/render/tailscaled --tun=userspace-networking --socks5-server=localhost:1055 &
 PID=$!
 
 ADVERTISE_ROUTES=${ADVERTISE_ROUTES:-10.0.0.0/8}
