@@ -12,7 +12,6 @@ RUN apt-get -qq update \
     wget \
     iproute2 \
     telnet \
-    dnsutils \
   > /dev/null \
   && apt-get -qq clean \
   && rm -rf \
