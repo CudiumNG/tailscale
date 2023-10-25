@@ -13,5 +13,5 @@ services:
     disk:
       name: tailscale-state
       mountPath: /var/lib/tailscale
-      sizeGB: 1
+      sizeGB: 2
 

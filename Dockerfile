@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 WORKDIR /render
 
 ARG TAILSCALE_VERSION
